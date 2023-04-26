@@ -5,6 +5,11 @@ import Login from "../views/01.log/Login";
 import Signup from "../views/01.log/Signup";
 import Forgot from "../views/01.log/Forgot";
 
+export const Routers = () => (
+    <Routes>
+    </Routes>
+);
+
 export const RoutersLog = () => (
     <Routes>
         <Route path="/" element={<Login/>}/>
