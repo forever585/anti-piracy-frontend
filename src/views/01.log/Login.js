@@ -28,9 +28,7 @@ export default class Login extends Component {
                                  src="./logo.png"
                                  alt="img"/>
                         </div>
-                        <hr/>
                         <h1 className="text-center">Anti Piracy</h1>
-                        <hr/>
                         <div className="form-group">
                             <label>Email Address</label>
                             <input data-validate="Valid email is required: ex@abc.xyz" type="email"
@@ -56,7 +54,7 @@ export default class Login extends Component {
                             </div>
                         </div>
                         <button onClick={this.submit} className="btn btn-primary btn-lg btn-block fw-500 mb-3">
-                            Sign In
+                            Log In
                         </button>
                         <div className="text-center">
                             <label>Don’t have an account?</label>
