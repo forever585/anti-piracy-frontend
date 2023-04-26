@@ -15,6 +15,7 @@ export default class Login extends Component {
         console.log(this.state.email, this.state.password)
 
         localStorage.setItem("loginUser","admin")
+        window.location.href="/";
     };
 
     render() {
