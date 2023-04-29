@@ -21,7 +21,7 @@ export default class Navigation extends Component {
 
     render() {
         return (
-            <div className="app-sidebar-content">
+            <div className="app-sidebar-content nav-scroll">
                 <div className="menu">
                     <NavItem
                         title={"Home"}
