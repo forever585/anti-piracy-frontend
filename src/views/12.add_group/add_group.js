@@ -5,15 +5,15 @@ import { mock_data } from "../../data/mock_data";
 const dataFromApi = mock_data.assets;
 
 export default class AddGroup extends Component {
-    addAsset = () => {
+    onAddAsset = () => {
         console.log("call sendNotification")
     };
 
-    selectGroup = () => {
+    onSelectGroup = () => {
         console.log("call selectGroup")
     };
 
-    submit = () => {
+    onSubmit = () => {
         console.log("call submit")
     };
 
@@ -34,14 +34,14 @@ export default class AddGroup extends Component {
                         <div className="col-md-12">
                             <div className="form-group center">
                                 <center>
-                                    <button onClick={this.addAsset} className="btn btn-primary">Add Asset</button>
+                                    <button onClick={this.onAddAsset} className="btn btn-primary">Add Asset</button>
                                 </center>
                             </div>
                         </div>
                         <div className="col-md-12">
                             <div className="form-group">
                                 <center>
-                                    <button onClick={this.selectGroup} className="btn btn-primary">Select Group</button>
+                                    <button onClick={this.onSelectGroup} className="btn btn-primary">Select Group</button>
                                 </center>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ export default class AddGroup extends Component {
                         <div className="col-md-12">
                             <div className="form-group">
                                 <center>
-                                    <button onClick={this.submit} className="btn btn-primary">Submit</button>
+                                    <button onClick={this.onSubmit} className="btn btn-primary">Submit</button>
                                 </center>
                             </div>
                         </div>                                                                                        

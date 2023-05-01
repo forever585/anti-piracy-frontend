@@ -6,4 +6,5 @@ export const routers = {
     changePassword: "/password/change",
     home: "/dashboard",
     addgroup: "/addgroup",
+    submitcontent: "/submitcontent",
 }

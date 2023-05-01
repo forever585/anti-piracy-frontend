@@ -97,7 +97,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Submit Content"}
-                        mainTab={""}
+                        mainTab={routers.submitcontent}
                         icon={"fa fa-check"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(8)}
