@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Link} from "react-router-dom";
-import {routers} from "../../data/config";
+import {routers} from "../../config/config" 
 
 export default class Login extends Component {
     constructor(props) {

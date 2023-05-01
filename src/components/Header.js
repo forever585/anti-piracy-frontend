@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Link} from "react-router-dom";
 import Popover from "@mui/material/Popover/Popover";
 import logo from "../asset/image/logo.png"
-import {routers} from "../data/config";
+import {routers} from "../config/config";
 
 export default class Header extends Component {
     constructor(props) {

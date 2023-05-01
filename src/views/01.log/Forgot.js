@@ -39,8 +39,6 @@ export default class Forgot extends Component {
 
                     </div>
                 </div>
-                <a href="#" data-click="scroll-top" className="btn-scroll-top fade"><i
-                    className="fa fa-arrow-up"/></a>
             </div>
         )
     }

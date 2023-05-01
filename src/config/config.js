@@ -4,5 +4,6 @@ export const routers = {
     forgot: "/forgot",
     profile: "/profile",
     changePassword: "/password/change",
-    home: "/dashboard"
+    home: "/dashboard",
+    addgroup: "/addgroup",
 }

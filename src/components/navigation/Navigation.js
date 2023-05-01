@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {routers} from "../../data/config";
+import {routers} from "../../config/config";
 import NavItem from "./NavItem";
 
 export default class Navigation extends Component {
@@ -115,7 +115,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Add Group"}
-                        mainTab={""}
+                        mainTab={routers.addgroup}
                         icon={"fa fa-users"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(10)}
