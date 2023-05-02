@@ -30,7 +30,6 @@ export default function YourAssets(props) {
                     buttonEx={{}}
                     searchField={true}
                     data={data}/>
-
             </div>
         </div>
     )

@@ -28,20 +28,17 @@ export default function ViewData(props) {
                             />
                         </div>
                     </div>
-                    <div className="col-1">
+                    <div className="col-4">
                         <div className="form-group">
-                            <label className="vertical-center">Class</label>
-                        </div> 
-                    </div>
-                    <div className="col-3">
-                        <div className="form-group">
+                            <label>Class</label>
                             <select className="form-select">
                                 <option>All</option>
                             </select>
-                        </div>                         
+                        </div> 
                     </div>
                     <div className="col-5">
                         <div className="form-group">
+                            <label style={{"visibility": "hidden"}}>hidden</label>
                             <select className="form-select">
                                 <option>Bharti Share Market Course</option>
                             </select>
