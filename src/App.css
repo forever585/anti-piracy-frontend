@@ -191,3 +191,11 @@ th{
 .button-circular {
   border-radius:80%;
 }
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 30%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
