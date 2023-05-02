@@ -34,7 +34,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Summary"}
-                        mainTab={""}
+                        mainTab={routers.summary}
                         icon={"fas fa-user-astronaut"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(1)}
@@ -43,7 +43,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Review Analytics"}
-                        mainTab={""}
+                        mainTab={routers.reviewanalytics}
                         icon={"fa fa-list"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(2)}
@@ -52,7 +52,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Notice Analytics"}
-                        mainTab={""}
+                        mainTab={routers.noticeanalytics}
                         icon={"fa fa-comment"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(3)}
@@ -70,7 +70,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"View Data"}
-                        mainTab={""}
+                        mainTab={routers.viewdata}
                         icon={"fa fa-database"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(5)}
@@ -79,7 +79,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Review Pannel"}
-                        mainTab={""}
+                        mainTab={routers.reviewpannel}
                         icon={"fa fa-tag"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(6)}
@@ -88,7 +88,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Notice Pannel"}
-                        mainTab={""}
+                        mainTab={routers.noticepannel}
                         icon={"fa fa-bell"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(7)}
@@ -106,7 +106,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Text Submit"}
-                        mainTab={""}
+                        mainTab={routers.textsubmit}
                         icon={"fa fa-file-pdf"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(9)}
@@ -124,7 +124,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Modify Group"}
-                        mainTab={""}
+                        mainTab={routers.modifygroup}
                         icon={"fa fa-edit"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(11)}
@@ -133,7 +133,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Email Configration"}
-                        mainTab={""}
+                        mainTab={routers.emailconfigration}
                         icon={"fa fa-envelope"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(12)}
@@ -142,7 +142,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Manual "}
-                        mainTab={""}
+                        mainTab={routers.manual}
                         icon={"fa fa-hand"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(13)}

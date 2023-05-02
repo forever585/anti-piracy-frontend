@@ -187,3 +187,7 @@ th{
 .nav-scroll::-webkit-scrollbar {
   display: none;
 }
+
+.button-circular {
+  border-radius:80%;
+}

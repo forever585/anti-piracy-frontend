@@ -5,9 +5,19 @@ export const routers = {
     profile: "/profile",
     changePassword: "/password/change",
     home: "/dashboard",
+    summary: "/summary",
+    reviewanalytics: "/reviewanalytics",
+    noticeanalytics: "/noticeanalytics",
     yourassets: "yourassets",
-    addgroup: "/addgroup",
+    viewdata: "/viewdata",
+    reviewpannel: "/reviewpannel",
+    noticepannel: "/noticepannel",
     submitcontent: "/submitcontent",
+    textsubmit: "/textsubmit",    
+    addgroup: "/addgroup",
+    modifygroup: "/modifygroup",
+    emailconfigration: "/emailconfigration",
+    manual: "/manual",
 }
 
 export const buttonType = {
