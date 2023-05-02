@@ -43,7 +43,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Review Analytics"}
-                        mainTab={routers.taxList}
+                        mainTab={""}
                         icon={"fa fa-list"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(2)}
@@ -52,7 +52,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Notice Analytics"}
-                        mainTab={routers.idList}
+                        mainTab={""}
                         icon={"fa fa-comment"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(3)}
@@ -61,7 +61,7 @@ export default class Navigation extends Component {
                     />
                     <NavItem
                         title={"Your Assets"}
-                        mainTab={routers.membershipList}
+                        mainTab={routers.yourassets}
                         icon={"fa fa-credit-card"}
                         tabs={{}}
                         setOpenIndex={() => this.setIndex(4)}

@@ -37,8 +37,151 @@
   }
 }
 
-.nav-scroll {
-  overflow: auto;
+.app-sidebar .menu .menu-item .menu-link.active {
+  color: #1f6bff !important;
+  background-color: white !important;
+  font-weight: 600;
+  background: 0 0;
+}
+
+.img1 {
+  max-height: 310px
+}
+
+.block-style {
+  min-height: 380px;
+}
+
+.height-6 {
+  height: 6px
+}
+
+.app-sidebar .menu .menu-item .menu-link:hover {
+  cursor: pointer;
+}
+
+.app-sidebar .menu .menu-item .menu-link.active .menu-icon {
+  color: #1f6bff !important;
+  background-color: white !important;
+  font-weight: 600;
+  background: 0 0;
+}
+
+.app-sidebar .menu .menu-item .collapse-style .collapse-group{
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.app-sidebar .menu .menu-item .collapse-style .collapse-group .menu-link {
+  padding: 4px 10px;
+  margin-left: 10px;
+}
+
+.min-height-202 {
+  min-height: 202px;
+}
+
+.card-header.card-header-primary {
+  padding: 10px !important;
+}
+
+.table .thead-light th:hover {
+  cursor: pointer;
+  background-color: #adbfff;
+}
+
+.btn-collapse {
+  content: '\f067';
+  background: #dae0ec;
+  color: #4d6593;
+  border: none;
+  left: .3375rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  width: 1.25rem;
+  font-size: .625rem;
+  margin-top: -.65rem;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: Font Awesome\ 5 Free, Font Awesome\ 5 Pro, FontAwesome !important;
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+}
+
+.name-style {
+  color: red !important;
+}
+
+.table-image-style {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%
+}
+
+.table td{
+  align-items: center;
+  vertical-align: middle !important;
+}
+
+.green-bold{
+  color: green !important;
+  font-size: 17px !important;
+  font-weight: bolder !important;
+}
+
+.green-italic{
+  color: green !important;
+  font-style: italic !important;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.separator::before, .separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #000;
+}
+
+.items-per-page{
+  font-size: 1rem;
+  border-radius: 6px;
+  height: calc(1.5em + 0.75rem + 2px);
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s
+}
+
+.form-group .input-active{
+  border: solid darkblue 2px;
+}
+
+th{
+  text-transform: uppercase;
+}
+
+.download-style{
+  color: blue;
+}
+
+.download-style:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.nav-scroll{
+ overflow-y: auto;
 }
 
 .nav-scroll::-webkit-scrollbar {

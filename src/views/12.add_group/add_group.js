@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Select from 'react-select';
 import { mock_data } from "../../data/mock_data";
 
-const dataFromApi = mock_data.assets;
+const dataFromApi = mock_data.assets1;
 
 export default class AddGroup extends Component {
     onAddAsset = () => {

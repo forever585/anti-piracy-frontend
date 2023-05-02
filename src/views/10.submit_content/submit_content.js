@@ -129,9 +129,9 @@ export default class SubmitContent extends Component {
                         <div className="col-md-12">
                             <div className="form-group center">
                                 <center>
-                                    <input type="checkbox" onChange={(event) => this.setState({title: event.target.value})} style={{"margin-right": "5px"}}/>
-                                    <label style={{"margin-right": "50px"}}>Create New Group</label>
-                                    <input type="checkbox" onChange={(event) => this.setState({title: event.target.value})} style={{"margin-right": "5px"}}/>
+                                    <input type="checkbox" onChange={(event) => this.setState({title: event.target.value})} style={{"marginRight": "5px"}}/>
+                                    <label style={{"marginRight": "50px"}}>Create New Group</label>
+                                    <input type="checkbox" onChange={(event) => this.setState({title: event.target.value})} style={{"marginRight": "5px"}}/>
                                     <label>Generate Patterns</label>
                                 </center>
                             </div>
