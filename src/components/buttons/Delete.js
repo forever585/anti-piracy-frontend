@@ -1,15 +1,11 @@
-import React, {Component} from "react";import {useLocation} from "react-router";
+import React from "react";
 
 export default function Delete(props) {
-
-
     const url = window.location.href;
-
 
     const deleteItem = (id) => {
         console.log(id);
     };
-
 
     return (
         <React.Fragment key={url + "_fragment"}>
@@ -17,5 +13,4 @@ export default function Delete(props) {
                     className="fa fa-trash"/></span>
         </React.Fragment>
     )
-
 }

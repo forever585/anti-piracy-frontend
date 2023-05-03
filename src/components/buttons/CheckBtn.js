@@ -1,16 +1,13 @@
-import React, {Component} from "react";
+import React from "react";
 import FormControlLabel from "@mui/material/FormControlLabel/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox/Checkbox";
 
 export default function IconBtn(props) {
-
-
     const url = window.location.href;
 
     const [data, setData] = React.useState({
         checked: false
     });
-
 
     const showOrHide = (item, checkedState) => {
         setData({...data, checked: checkedState});
@@ -25,5 +22,4 @@ export default function IconBtn(props) {
                 label=""/>
         </React.Fragment>
     )
-
 }

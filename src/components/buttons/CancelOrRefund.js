@@ -1,11 +1,7 @@
-import React, {Component} from "react";import {useLocation} from "react-router";
-
+import React from "react";
 
 export default function CancelOrRefund(props) {
-
-
     const url = window.location.href;
-
 
     const deleteItem = (id) => {
         console.log(id);
@@ -16,5 +12,4 @@ export default function CancelOrRefund(props) {
             <span onClick={() => deleteItem(props.item["id"])} className="btn btn-primary mr-1">Cancel/Refund</span>
         </React.Fragment>
     )
-
 }

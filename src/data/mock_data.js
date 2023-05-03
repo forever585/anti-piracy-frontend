@@ -34,4 +34,22 @@ export const mock_data = {
         { id: "4", value: "Apps & Softwares", label: "Apps & Softwares" },
         { id: "4", value: "Games", label: "Games" }
     ],
+
+    summary: [
+        {
+            official_name: "Bharti Share Market Brand",
+            reviewed: 0,            
+            identified_infringements: 0,
+        },
+        {
+            official_name: "Bharti Share Market Course",
+            reviewed: 24,            
+            identified_infringements: 419,
+        },
+        {
+            official_name: "Bharti Share Market Profiles",
+            reviewed: 68,            
+            identified_infringements: 68,
+        }
+    ],
 }

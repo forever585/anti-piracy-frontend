@@ -1,16 +1,11 @@
-import React, {Component} from "react";
-import {useLocation} from "react-router";
+import React from "react";
 
 export default function Process(props) {
-
-
     const url = window.location.href;
-
 
     const process = (id) => {
         console.log(id);
     };
-
 
     return (
         <React.Fragment key={url + "_fragment_request"}>
@@ -23,5 +18,4 @@ export default function Process(props) {
 
         </React.Fragment>
     )
-
 }

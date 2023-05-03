@@ -1,10 +1,7 @@
-import React, {Component} from "react";
-import {useLocation} from "react-router";
+import React from "react";
 import Modal from "@mui/material/Modal/Modal";
 
 export default function Reject(props) {
-
-
     const url = window.location.href;
     const [data, setData] = React.useState({
         modalState: false,
@@ -22,7 +19,6 @@ export default function Reject(props) {
     const submit = () => {
         console.log(data)
     };
-
 
     return (
         <React.Fragment key={url + "_fragment_request"}>
@@ -50,5 +46,4 @@ export default function Reject(props) {
             </Modal>
         </React.Fragment>
     )
-
 }

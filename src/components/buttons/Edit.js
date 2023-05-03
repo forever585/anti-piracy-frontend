@@ -1,11 +1,8 @@
-import React, {Component} from "react";import {useLocation} from "react-router";
+import React from "react";
 import {Link} from "react-router-dom";
 
 export default function Edit(props) {
-
-
     const url = window.location.href;
-
 
     return (
         <React.Fragment key={url + "_fragment"}>
@@ -16,5 +13,4 @@ export default function Edit(props) {
                 className="fa fa-edit"/></Link>
         </React.Fragment>
     )
-
 }

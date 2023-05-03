@@ -4,6 +4,8 @@ import {routers} from "../config/config"
 import Login from "../views/01.log/Login";
 import Signup from "../views/01.log/Signup";
 import Forgot from "../views/01.log/Forgot";
+import Home from "../views/02.home/Home";
+import Summary from "../views/03.summary/summary";
 import NoticeAnalytics from "../views/05.notice_analytics/notice_analytics";
 import YourAssets from "../views/06.your_assets/your_assets";
 import ViewData from "../views/07.view_data/view_data";
@@ -13,6 +15,8 @@ import AddGroup from "../views/12.add_group/add_group";
 
 export const Routers = () => (
     <Routes>
+        <Route path={routers.home} element={<Home/>}/>
+        <Route path={routers.summary} element={<Summary/>}/>
         <Route path={routers.noticeanalytics} element={<NoticeAnalytics/>}/>
         <Route path={routers.yourassets} element={<YourAssets/>}/>
         <Route path={routers.viewdata} element={<ViewData/>}/>

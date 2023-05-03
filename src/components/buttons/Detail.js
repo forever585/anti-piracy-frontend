@@ -1,17 +1,13 @@
-import React, {Component} from "react";
-import {useLocation} from "react-router";
+import React from "react";
 import CustomImage from "../CustomImage";
 import Modal from "@mui/material/Modal/Modal";
 import {Link} from "react-router-dom";
 
 export default function Detail(props) {
-
-
     const url = window.location.href;
     const [data, setData] = React.useState({
         modalState: false
     });
-
 
     const closeModal = () => {
         setData({...data, modalState: false});
@@ -79,15 +75,12 @@ export default function Detail(props) {
                     </Modal>
                 </React.Fragment>
             )
-
         }
     };
-
 
     return (
         <React.Fragment key={url + "_fragment_request"}>
             {showDetail()}
         </React.Fragment>
     )
-
 }

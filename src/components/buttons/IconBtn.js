@@ -1,10 +1,7 @@
-import React, {Component} from "react";
+import React from "react";
 
 export default function IconBtn(props) {
-
-
     const url = window.location.href;
-
 
     const activeOrBlock = (id) => {
         console.log(id);
@@ -17,5 +14,4 @@ export default function IconBtn(props) {
             </span>
         </React.Fragment>
     )
-
 }

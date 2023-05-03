@@ -4,7 +4,7 @@ export const routers = {
     forgot: "/forgot",
     profile: "/profile",
     changePassword: "/password/change",
-    home: "/dashboard",
+    home: "/home",
     summary: "/summary",
     reviewanalytics: "/reviewanalytics",
     noticeanalytics: "/noticeanalytics",
